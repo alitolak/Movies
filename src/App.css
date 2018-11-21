@@ -1,0 +1,45 @@
+.App {
+  text-align: center;
+}
+.img_poster {
+  width: "100px";
+  border-radius: "12px";
+  top: "%20";
+  bottom: "%20";
+  position: "relative";
+}
+.App-logo {
+  animation: App-logo-spin infinite 20s linear;
+  height: 40vmin;
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+.recipes__box {
+  border-radius: 5px;
+  padding: 12;
+  padding-bottom: 5;
+  box-shadow: "0px 9px 6px #888888";
+  text-align: left;
+  overflow: hidden;
+}
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
